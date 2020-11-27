@@ -1,0 +1,40 @@
+menu img {width: 100px; height: 40px; padding: 0 20px;}
+menu {width: 1200px; background: red; padding: 30px; margin: auto; color: black;}
+
+nav ul li {float: left; list-style: none; background-color: white;}
+nav ul li a {margin-right: 15px; text-decoration: none; padding: 3px 15px;}
+nav ul li:hover > ul {display: block;}
+nav {position: relative; background-color: red; height: 35px; width: 1260px; line-height: 35px; margin: auto; border-left: 1px red;}
+nav ul li ul {display: none; position: absolute;}
+nav ul li ul li {float: none; position: relative;}
+nav ul li:hover {background: pink;}
+nav ul li a:hover {color: white;}
+nav ul ul ul {left: 100%; width: 200px; top: 0;}
+
+header {width: 1200px; padding: 30px; margin: auto; color: black; text-align: center; margin-bottom: 130px;}
+header img {position: absolute; z-index: -1; padding: 5px; width: 1200px; height: 500px; margin-left: -600px;}
+header p {font-size: 25px;}
+header h1 {text-align: center; font-style: bold; color: white; padding-top: 30px;}
+header .left h2 a{margin-right: 400px; box-shadow: inset 3px 3px 4px rgba(0,0,0,0.4); padding: 10px; border: 1px solid white; color:white; float: right;}
+header .right h2 a{margin-left: 400px; box-shadow: inset 3px 3px 4px rgba(0,0,0,0.4); padding: 10px; border: 1px solid white; color:white; float: left;}
+header h3 {text-align: center; font-style: bold;}
+
+article {width: 1200px; padding: 30px; margin: auto; background:white; overflow: hidden;}
+article .kiri1 {width: 240px; padding: 20px; padding-bottom: 80px; margin-right: 20px; background: white; color: black; float: left;}
+article .kiri2 {width: 240px; padding: 20px; padding-bottom: 60px; margin-right: 20px; background: white; color: black; float: left;}
+article .kiri3 {width: 240px; padding: 20px; padding-bottom: 95px; margin-right: 20px; background: white; color: black; float: left;}
+article .kiri4 {width: 240px; padding: 20px; padding-bottom: 40px; margin-right: 20px; background: white; color: black; float: left;}
+article .galeri {width: 1100px; padding: 20px; margin-top: 350px; background: red; color: black; float: center;}
+article .form1 {width: 560px; padding: 20px; margin-top: 30px; background: black; color: white; float: left;}
+article .form2 {width: 560px; padding: 20px; margin-top: 32px; background: black; color: white; float: right;}
+article .form2 img {width: 30px; height: 30px;}
+article .form2 p {float: right;}
+article .gall h2 {padding-top: 350px; box-shadow: inset 3px 3px 4px rgba(0,0,0,0.5); padding: 5px; border: 1px solid white; background-color: white; width: 200px;}
+
+footer {width: 1200px; background: red; padding: 30px; margin: auto;}
+footer h1 {background-color: black; padding: 10px; color: white; width: 300px;}
+footer p {display: none; background-color: black; padding: 10px; color: white; width: 300px;}
+footer p:hover {color : brown;}
+footer h1:hover {color : brown;}
+footer p:active{color : green;}
+footer:hover p {display: block;}

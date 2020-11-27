@@ -1,0 +1,53 @@
+* {padding:0; margin:0}
+
+body {background: url('images/cf.jpg'); font-family: arial; color: black; margin-top: 30px;}
+
+menu {width:1200px; background: palevioletred; padding:30px; margin:auto; color:black; text-align: center;}
+* {padding: 0; margin: 0; font-family: arial;}
+nav ul li {float: left; list-style: none; background-color: greenyellow;}
+nav ul li a {margin-right: 15px; text-decoration: none; padding: 3px 15px;}
+nav ul li:hover > ul {display: block;}
+nav {position: relative; background-color: orange; height: 35px; width: 1250px; line-height: 35px; margin: auto; border-left: 1px red;}
+nav ul li ul {display: none; position: absolute;}
+nav ul li ul li {float: none; position: relative;}
+nav ul li:hover {background: orangered;}
+nav ul li a:hover {color: white;}
+nav ul ul ul {left: 100%; width: 200px; top: 0;}
+
+header {width:1200px; background: cornflowerblue; padding:30px; margin:auto; color:black; text-align: center;}
+
+article {width: 1200px; padding: 30px; margin: auto; background:grey; overflow: hidden;}
+article .kiri {width: 240px; padding: 10px; background: green; color: black; float: left;}
+article .kiri1 {width: 180px; padding: 20px; background: green; color: black; float: left;}
+article .kiri2 {width: 180px; padding: 20px; background: green; color: black; float: left;}
+article .kiri3 {width: 180px; padding: 20px; background: green; color: black; float: left;}
+article .kiri4 {width: 180px; padding: 20px; background: green; color: black; float: left;}
+
+article .tengah {width: 180px; padding: 10px; background: red; color: black; float: left;}
+
+article .kanan {width: 700px; padding: 20px; background: darkcyan; color: black; float: right;}
+article .kanan1 {width: 670px; padding: 20px; background: purple; color: black; float: right;}
+article .kanan2 {width: 670px; padding: 20px; background: coral; color: black; float: right;}
+article .kanan3 {width: 670px; padding: 20px; background: skyblue; color: black; float: right;}
+article .kanan4 {width: 670px; padding: 20px; background: gold; color: black; float: right;}
+
+footer {width: 1200px; background: #95a5a6; padding: 30px; margin: auto; text-align: center;}
+
+article .contact {width:1000px; background: whitesmoke; padding:30px; margin:auto; color:black; text-align: center;}
+article .statement {width:1000px; background: whitesmoke; padding:30px; margin:auto; color:black; text-align: center;}
+
+.pagination a {padding: 10px 15px; text-decoration: none; color: skyblue; transition: background-color .5s; border: 1px solid #ddd; margin: 0 1px;}
+.pagination a:hover {background-color: green; border-radius: 7px; color: white;}
+.pagination a.active {background-color: darkolivegreen; color: darkred; border-radius: 7px;}
+
+a:visited {color: red;}
+a:hover {color: black;}
+a:active {color: indianred;}
+div:hover p {display: block;}
+
+.kotak {width: 150px; height: 150px; position: absolute;}
+.kotak1 {background: red;}
+.kotak2 {background: blue; top: 30px; left: 30px; z-index: auto;}
+.kotak3 {background: black; top: 60px; left: 60px; z-index: 1;}
+.kotak4 {background: green; top: 90px; left: 90px; z-index: 2;}
+.kotak5 {background: yellow; top: 120px; left: 120px; z-index: 3;}

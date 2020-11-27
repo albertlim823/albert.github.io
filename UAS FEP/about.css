@@ -1,0 +1,30 @@
+menu img {width: 100px; height: 40px; padding: 0 20px;}
+menu {width: 1200px; background: red; padding: 30px; margin: auto; color: black;}
+
+nav ul li {float: left; list-style: none; background-color: white;}
+nav ul li a {margin-right: 15px; text-decoration: none; padding: 3px 15px;}
+nav ul li:hover > ul {display: block;}
+nav {position: relative; background-color: red; height: 35px; width: 1260px; line-height: 35px; margin: auto; border-left: 1px red;}
+nav ul li ul {display: none; position: absolute;}
+nav ul li ul li {float: none; position: relative;}
+nav ul li:hover {background: pink;}
+nav ul li a:hover {color: white;}
+nav ul ul ul {left: 100%; width: 200px; top: 0;}
+
+header {width: 1200px; padding: 30px; margin: auto; background:white; overflow: hidden;}
+header .kiri img {width: 500px; height: 300px; padding-top: 20px; padding-left: 10px; float: left; padding-bottom: 10px;}
+header .kanan {width: 600px; padding: 40px; background: white; color: black; float: right;}
+
+article {width: 1200px; padding: 30px; margin: auto; background:white; overflow: hidden;}
+article .kiri1 {width: 550px; padding: 20px; background: black; color: white; float: left; height: 330px;}
+article .kiri1 h2 a {box-shadow: inset 3px 3px 4px rgba(0,0,0,0.4); padding: 10px; border: 1px solid grey; color: white;}
+article .kiri1 h3 {padding: 10px; color: red;}
+article .kanan1 {width: 570px; padding: 20px; background: black; color: white; float: right; height: 330px;}
+
+footer {width: 1200px; background: red; padding: 30px; margin: auto;}
+footer h1 {background-color: black; padding: 10px; color: white; width: 300px;}
+footer p {display: none; background-color: black; padding: 10px; color: white; width: 300px;}
+footer p:hover {color : brown;}
+footer h1:hover {color : brown;}
+footer p:active{color : green;}
+footer:hover p {display: block;}
